@@ -1,0 +1,6 @@
+app_*
+oficial*.csv
+*.xls
+*.xlsx
+meusproventos
+.vscode
