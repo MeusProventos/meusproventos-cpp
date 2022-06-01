@@ -49,6 +49,16 @@ São esperadas 8 colunas (sem checagem de título) na planilha de entrada:
 1. Preço unitário: formato "R$XXX,YY"
 1. Valor da Operação: formato "R$XXX,YY" (aproximadamente ~ Quantidade x Preço Unitario)
 
+> A planilha de movimentações é passada através do parâmetro '--entrada'
+
+#### Planilha de posições (auxiliar)
+
+**Formato:** a definir.
+
+A ideia aqui é permitir entrada de dados auxiliares (como posições em anos anteriores),
+que permitam um cálculo preciso dos proventos.
+
+> A planilha de posições é passada através do parâmetro '--auxiliar'
 
 -----
 
