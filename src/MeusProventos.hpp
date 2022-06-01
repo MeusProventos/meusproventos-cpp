@@ -101,8 +101,8 @@ public:
 
     CSVReader reader(arquivo);
 
-    // OBSERVACAO: Nao consigo ler o cabecalho (ainda!)
-    // COMECANDO DA PRIMEIRA LINHA!
+    std::vector<std::string> cols = reader.get_col_names();
+    assert(cols.size() == 8);
 
     std::vector<MLinha> doc;
 
