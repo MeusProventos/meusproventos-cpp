@@ -26,7 +26,7 @@ Para construir e executar o software em C/C++
 ```
 make
 make test
-./meusproventos --entrada exemplo/exemplo0.csv
+./meusproventos --entrada exemplos/exemplo0.csv
 ```
 
 
