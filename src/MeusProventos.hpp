@@ -109,6 +109,8 @@ public:
     int line_count = 1; // skip header
     for (CSVRow &row : reader) {
       //
+      // row["col_name"] = ... // acesso direto a coluna (não utilizado!)
+      //
       MLinha mlinha;
       //
       int col = 0;
