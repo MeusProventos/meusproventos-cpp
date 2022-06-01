@@ -38,6 +38,8 @@ Existem dois arquivos principais: planilha de movimentações e planilha de posi
 
 #### Planilha de movimentações (entrada)
 
+> A planilha de movimentações é passada através do parâmetro '--entrada'
+
 São esperadas 8 colunas (sem checagem de título) na planilha de entrada:
 
 1. Entrada e Saída: valor "Credito" ou "Debito"
@@ -46,19 +48,18 @@ São esperadas 8 colunas (sem checagem de título) na planilha de entrada:
 1. Nome do Produto: "AABB3 - Nome"
 1. Nome da Corretora: "Corretora XYZ"
 1. Quantidade: número positivo (de cotas ou ações)
-1. Preço unitário: formato "R$XXX,YY"
-1. Valor da Operação: formato "R$XXX,YY" (aproximadamente ~ Quantidade x Preço Unitario)
-
-> A planilha de movimentações é passada através do parâmetro '--entrada'
+1. Preço unitário: formato "R$XXX,YY" (ou "-", quando não se aplicar)
+1. Valor da Operação: formato "R$XXX,YY" ou "-" (aproximadamente ~ Quantidade x Preço Unitario)
 
 #### Planilha de posições (auxiliar)
+
+> A planilha de posições é passada através do parâmetro '--auxiliar'
 
 **Formato:** a definir.
 
 A ideia aqui é permitir entrada de dados auxiliares (como posições em anos anteriores),
 que permitam um cálculo preciso dos proventos.
 
-> A planilha de posições é passada através do parâmetro '--auxiliar'
 
 -----
 
